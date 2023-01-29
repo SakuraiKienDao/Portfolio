@@ -1,0 +1,40 @@
+:root {
+  --text-color: #ffffff;
+  --primary-color: #51bd7a;
+}
+
+.wraper {
+  height: 80px;
+  width: 200px;
+}
+
+.logo {
+  height: 80px;
+  width: 200px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.group {
+  height: 100px;
+}
+.stroke,
+.poly1,
+.poly2 {
+  transition: all 0.5s ease;
+  /* transform: translateX(100%); */
+}
+.stroke {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.poly2 {
+  transform: translateX(-10%);
+}
+
+.logo:hover .poly2 {
+  transform: translateX(1%);
+}
+.logo:hover .stroke {
+  transform: translatey(5%);
+  opacity: 1;
+}

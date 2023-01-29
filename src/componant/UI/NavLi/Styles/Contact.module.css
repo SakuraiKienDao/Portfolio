@@ -1,0 +1,35 @@
+.contact   {
+  height: 60px;
+  width: 230px;
+  
+}
+
+.stroke,
+.poly1,
+.poly2 {
+  transition: all 0.5s ease;
+  /* transform: translateX(100%); */
+}
+.stroke {
+  transform: translateY(-100%);
+  opacity: 0;
+}
+.poly2 {
+  transform: translateX(-7%);
+}
+.poly1 {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+.contact:hover .poly1 {
+  transform: translateX(1%);
+  opacity: 1;
+}
+
+.contact:hover .poly2 {
+  transform: translateX(1%);
+}
+.contact:hover .stroke {
+  transform: translatey(3%);
+  opacity: 1;
+}

@@ -1,0 +1,44 @@
+// -----------------------------
+// const typeText = document.getElementById("typeText");
+// const cursor = document.getElementById("cursor");
+// const typingArray = ["everything", "everywhere", "all at one"];
+// const typingDelay = 200;
+// const erasingDelay = 200;
+// const newTextDelay = 2000;
+// let typingArrayIndex = 0;
+// let charIndex = 0;
+
+// const type = () => {
+//   if (charIndex < typingArray[typingArrayIndex].length) {
+//     if (!cursor.classList.contains(".typing")) {
+//       cursor.classList.add(".typing");
+//     }
+//     typeText.textContent += typingArray[typingArrayIndex].charAt(charIndex);
+//     charIndex++;
+//     setTimeout(type, typingDelay);
+//   } else {
+//     cursor.classList.remove(".typing");
+//     setTimeout(erase, newTextDelay);
+//   }
+// };
+// const erase = () => {
+//   if (charIndex > 0) {
+//     if (!cursor.classList.contains("typing")) {
+//       cursor.classList.add(".typing");
+//     }
+//     typeText.textContent = typingArray[typingArrayIndex].substring(
+//       0,
+//       charIndex - 1
+//     );
+//     charIndex--;
+//     setTimeout(erase, erasingDelay);
+//   } else {
+//     cursor.classList.remove('typing');
+//     typingArrayIndex++;
+//     if(typingArrayIndex>=typingArray.length) typingArrayIndex=0;
+//     setTimeout(type, typingDelay+1000)
+//   }
+// };
+
+// document.addEventListener('DOMContentLoaded',()=>{if(typingArray.length) setTimeout(type,newTextDelay+250)})
+// // -----------------------------

@@ -1,0 +1,16 @@
+.wrap{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: auto;
+    width: 100%;
+    z-index: 99999;
+}
+
+.navBar{
+    display: flex;
+  justify-content: space-between;
+    padding: 20px;
+    
+}
+

@@ -1,0 +1,10 @@
+.section{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: #100e17;
+    display: inline-block;
+    /* position: relative;
+    top:0 */
+    
+}

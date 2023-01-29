@@ -1,0 +1,43 @@
+.timeLine{
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 260vh;
+    width: 40px;
+    position: absolute;
+    top: 250px;
+    left: 22%;
+    z-index: 3;
+    user-select: none;
+}
+.text{
+    position: relative;
+    transform: rotate(270deg);
+    height: 23px;
+    width: 47px;
+    top: 530px;
+    left: -13px;
+    font-size: 17px;
+    font-family: astro;
+    color: var(--text-third-color);
+
+}
+.mText{
+    transform: rotate(270deg);
+    color: var(--text-third-color);
+    height: 23px;
+    width: 150px;
+    font-size: 24px;
+    position: relative;
+    top: 200px;
+    left: -20px;
+    font-family: 'Lobster', cursive;
+    font-weight: lighter;
+}
+
+.timeLine svg{
+    width: 80px;
+    height: 300vh;
+}
